@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <meta name="author" content="Sir Roy/Al Mendoza">
+  <meta name="author" content="Jed Pascua">
   <meta name="description" content="testing and debugging">
   <meta name="keywords" content="testing and debugging">
-  <title>CS3 </title>
+  <title>Error Logs - CS 3</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,7 +42,7 @@
       <a href="index.html#output">Output</a>
     </nav>
     
-    <h1 style="padding: 30px">Your Name / Section Mar 2026 </h1>
+    <h1 style="padding: 30px">Jed Pascua / 9-Na - Mar 2026</h1>
   </header>
 
   <section id="table">
@@ -56,65 +56,64 @@
       </tr>
       <tr>
         <td> 1 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> JS Line 1 </td> 
+        <td> Function plotPoint() is missing the parameters (x0, y0, x, y) </td>
+        <td> Changed function declaration from <code>function plotPoint()</code> to <code>function plotPoint(x0, y0, x, y)</code> </td>
       </tr>
       <tr>
         <td> 2 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> JS Line 2 </td> 
+        <td> Missing semicolon after console.log statement </td>
+        <td> Added semicolon: <code>console.log(x0, y0, x, y);</code> </td>
       </tr>
       <tr>
         <td> 3 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> JS Line 8 </td> 
+        <td> Missing dot between 'style' and property name </td>
+        <td> Changed <code>point.styleleft</code> to <code>point.style.left</code> </td>
       </tr>
       <tr>
         <td> 4 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> JS Line 9 </td> 
+        <td> Missing dot between 'style' and property name </td>
+        <td> Changed <code>point.stylebottom</code> to <code>point.style.bottom</code> </td>
       </tr>
       <tr>
         <td> 5 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> JS Line 20 </td> 
+        <td> Missing closing bracket for the plotPoint() function </td>
+        <td> Added closing brace <code>}</code> to properly close the function body </td>
       </tr>
       <tr>
         <td> 6 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> CSS Line 33 </td> 
+        <td> Pseudo-class selector has space before :hover </td>
+        <td> Removed space: changed <code>nav a :hover</code> to <code>nav a:hover</code> </td>
       </tr>
       <tr>
         <td> 7 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> CSS Line 43 </td> 
+        <td> .point class is missing position </td>
+        <td> Added <code>position: absolute;</code> to the .point class definition </td>
       </tr>
       <tr>
         <td> 8 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> CSS Line 6-8 </td> 
+        <td> Multiple font-family declarations. Only the last one (Roboto) is used </td>
+        <td> Combined all three into one comma-separated declaration: <code>font-family: 'Open Sans', 'Poppins', 'Roboto', sans-serif;</code> </td>
       </tr>
       <tr>
         <td> 9 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> CSS Line 33 </td> 
+        <td> Navigation uses <code>display: block</code> which stacks links vertically, but we need to make it so that the nav bar is only one line </td>
+        <td> Changed <code>display: block</code> to <code>display: inline-block</code> to keep all nav links on a single line </td>
       </tr>
       <tr>
         <td> 10 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> CSS Line 93 </td> 
+        <td> Icon sprite background image URL is missing the path </td>
+        <td> Changed <code>url('sprites.png')</code> to <code>url('images/sprites.png')</code> to correctly reference the sprite file </td>
       </tr>
-     
     </table>
     <hr>
   </section>
